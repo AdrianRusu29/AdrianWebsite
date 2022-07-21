@@ -1,3 +1,3 @@
 # MyWebsite
 Adrian Rusu Website
-https://adrianrusu29.github.io/RUSU/
+https://adrianrusu29.github.io/AdrianWebsite/
