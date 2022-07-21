@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: black url(../Poze/Panorama.jpg) center center no-repeat;
+    background-size: cover;
+    /* color: white; */
+}
+.Container {
+    font-size: 1rem;
+    /* background-color: #fff; */
+    /* background-color: rgb(197, 211, 211); */
+    /* opacity: 80%; */
+    display: flex;
+    flex-direction: column;
+    /* color: #fff; */
+    /* background-color: pink; */
+}
+    .Header {
+        display: grid;
+        place-content: center;
+        height: 50px;
+        background-color: rgba(197, 131, 191, 0.634);
+        /* background-color: rgba(199, 124, 191, 0.634); */
+        opacity:500%;
+        color:brown;
+        font-size: 2.5rem;
+        border: #020f00;
+    }
+    .Main {
+        display: flex;
+        place-content: center;
+        color: #050300;
+        font-size: 3rem;
+        text-align: left;
+        width: 100vw;
+        height: calc( 110vh - 140px );
+        position: relative;
+        /* justify-content: space-evenly; */
+    }
+        .Image {
+            width: 223px;
+            height: 226px;
+            border-radius: 7px;
+            margin: auto;
+            border-style:double;
+            border-color: brown;
+            margin-top: 60px;
+            margin-left: 65px;
+            opacity: 69%;
+        }
+        .Citat {
+            /* margin: auto; */
+            margin-top: 142px;
+            margin-left: 30px;
+            font-family:'Times New Roman', Times, serif;
+            text-align: end;
+            font-size: 29;
+        }
+            .stanga {
+                /* margin-left: 2750px; */
+                color: red;
+            }
+        .Menu {
+            background-color: rgba(199, 124, 191, 0.634);
+            margin-left: 10%;
+            /* opacity:500%; */
+            width:13%;
+            margin-right: 100px;
+            padding: 42px;
+            /* display: grid; */
+            /* place-content: center; */
+        }
+            .ItemList {
+                display: grid;
+                place-content: center;
+            }
+                a {
+                    text-decoration: none;
+                }
+            .DesignBtn {
+                display: grid;
+                place-content: center;
+                margin: 0 0 35px 0;
+                padding: 10px;
+                font-size: 19px;;
+                width: 150px;
+                height: 70px;
+                color: #fff;
+                background-color: rgb(193, 92, 92);
+                opacity: 80%;
+                border-radius: 10px;
+                border: none;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        .Location{
+            font-size: 20px;
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 16px;
+            left: 0;
+            color: black;
+        }
+    .Footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        height: 3%;
+        background-color: #000000;
+        color:white;
+        font-size: 1rem;
+        border: #000000;
+    }
