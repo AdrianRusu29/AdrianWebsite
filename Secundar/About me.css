@@ -10,7 +10,7 @@ html {
 .Container {
 margin: 42px 0 0 0;
 color: brown;
-height: 100vh;
+height: 10vh;
 width: 100vw;
 } 
      .title {
@@ -18,4 +18,13 @@ width: 100vw;
         place-content: center;
         font-size: 30px;
      }
+.Introducere{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    margin: auto;
+    place-content: center;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+}
 
