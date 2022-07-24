@@ -22,7 +22,7 @@ html {
         display: grid;
         place-content: center;
         height: 40px;
-        background-color: rgba(197, 131, 191, 0.634);
+        background-color: #FFE5DD;
         /* background-color: rgba(199, 124, 191, 0.634); */
         opacity:500%;
         color:brown;
@@ -46,7 +46,7 @@ html {
             border-radius: 7px;
             margin: auto;
             border-style:double;
-            border-color: brown;
+            border-color: #EAA298;
             margin-top: 60px;
             margin-left: 65px;
             opacity: 69%;
@@ -64,9 +64,9 @@ html {
                 color: red;
             }
         .Menu {
-            background-color: rgba(199, 124, 191, 0.634);
+            background-color: #FFE5DD;
             margin-left: 10%;
-            /* opacity:500%; */
+            opacity:75%;
             width:13%;
             margin-right: 100px;
             padding: 42px;
@@ -89,14 +89,14 @@ html {
                 width: 160px;
                 height: 70px;
                 color: #fff;
-                background-color: rgb(193, 92, 92);
-                opacity: 80%;
+                background-color: #EAA298;
+                opacity: 120%;
                 border-radius: 10px;
                 border-bottom: 35px;
                 font-family: 'Times New Roman', Times, serif;
             }
             .DesignBtn:hover {
-                background-color: pink;
+                background-color: #ffbba7;
                 border-radius: 10px;
                 
             }
