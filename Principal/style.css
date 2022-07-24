@@ -21,12 +21,12 @@ html {
     .Header {
         display: grid;
         place-content: center;
-        height: 50px;
+        height: 40px;
         background-color: rgba(197, 131, 191, 0.634);
         /* background-color: rgba(199, 124, 191, 0.634); */
         opacity:500%;
         color:brown;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         border: #020f00;
     }
     .Main {
@@ -74,7 +74,7 @@ html {
             /* place-content: center; */
         }
             .ItemList {
-                display: grid;
+                display:grid;
                 place-content: center;
             }
                 a {
@@ -83,23 +83,28 @@ html {
             .DesignBtn {
                 display: grid;
                 place-content: center;
-                margin: 0 0 35px 0;
-                padding: 10px;
-                font-size: 19px;;
-                width: 150px;
+                margin-bottom: 35px;
+                row-gap: 35px;
+                font-size: 19px;
+                width: 160px;
                 height: 70px;
                 color: #fff;
                 background-color: rgb(193, 92, 92);
                 opacity: 80%;
                 border-radius: 10px;
-                border: none;
+                border-bottom: 35px;
                 font-family: 'Times New Roman', Times, serif;
+            }
+            .DesignBtn:hover {
+                background-color: pink;
+                border-radius: 10px;
+                
             }
         .Location{
             font-size: 20px;
             position: absolute;
             bottom: 0;
-            margin-bottom: 16px;
+            margin-bottom: 5px;
             left: 0;
             color: black;
         }

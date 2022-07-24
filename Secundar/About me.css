@@ -17,14 +17,27 @@ width: 100vw;
         display: grid;
         place-content: center;
         font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
      }
 .Introducere{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Times New Roman', Times, serif;
     margin: auto;
     place-content: center;
-    display: flex;
-    font-size: 18px;
+    display: grid;
+    font-size: 19px;
     text-align: center;
     line-height: 25px;
+}
+.Back{
+    margin: 100px 0 0 70px;
+    color: black;
+    background-color: #ffc0cb;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 125px;
+}
+.Back:hover{
+    background-color: #ffe3ec;
+    border-radius: 10px;
 }
 
