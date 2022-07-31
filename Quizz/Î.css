@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(255, 200, 200); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Q{
+    font-size: 42px;
+    display: grid;
+    place-content: center;
+    margin-top: 13vw;
+}
+    .Variante{
+        display: flex;
+        list-style: none;
+        margin: 250px 0 0 0;
+        color: white;
+        justify-content: center;
+        gap: 135px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R{
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+.Raspuns{
+    margin: 18vw 10px 0 14vw;
+    width: 900px;
+    height: 30px;
+    font-size: 33px;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+.Submit{
+    height:53px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    background-color:aliceblue;
+    width: 75px;
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+}
+.Felicitare{
+    display: grid;
+    font-size: 50px;
+    place-content: center;
+    margin: 15vw 0 0 0;
+    font-size: 42px;
+    color: rgb(0, 0, 43);
+}
+.Back{
+    color: black;
+    background-color: #ffc0cb;
+    font-size: 30px;
+    border-radius: 10px;
+    width:250px;
+    padding: 2px;
+    margin: 100px 0 0 42vw;
+}

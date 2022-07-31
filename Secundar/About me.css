@@ -40,4 +40,10 @@ width: 100vw;
     background-color: #ffe3ec;
     border-radius: 10px;
 }
-
+.Feedback{
+    display: grid;
+    width: 50vw;
+    height: 20vw;
+    place-content: center;
+    margin: 5vw 0 0 10vw;
+}

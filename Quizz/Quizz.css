@@ -9,5 +9,17 @@ html {
 }
 
 .Container{
-    font-size: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 15vw 0 0 0;
+}
+.Btn1{
+    margin: 12vw 0 0 42vw;
+    font-size: 69px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: whitesmoke;
 }

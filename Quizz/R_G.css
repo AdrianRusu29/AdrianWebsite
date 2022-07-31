@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(255, 200, 200); 
+}
+.text{
+    display: flex;
+    margin: 15vw 0 0 20vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+.Menu{
+    font-size: 42px;
+    border-radius: 10px;
+    margin: 15vw 0 0 22vw;
+    padding: 4px;
+}
+.quizz{
+    font-size: 42px;
+    border-radius: 10px;
+    margin: 15vw 0 0 22vw;
+    padding: 4px;
+}
