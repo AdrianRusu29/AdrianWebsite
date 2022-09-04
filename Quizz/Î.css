@@ -24,6 +24,8 @@ html {
         font-family: 'Times New Roman', Times, serif;
     }
     .R{
+        height: 100px;
+        width: 250px;
         font-size: 69px;
         content: "\00B0";
         padding: 10px;
