@@ -23,9 +23,18 @@ html {
         gap: 135px;
         font-family: 'Times New Roman', Times, serif;
     }
-    .R{
+    .Variante6{
+        display: flex;
+        list-style: none;
+        margin: 250px 0 0 0;
+        color: white;
+        gap: 69px;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+    }    
+    .Rx{
         height: 100px;
-        width: 250px;
+        width: 160px;
         font-size: 69px;
         content: "\00B0";
         padding: 10px;
@@ -33,7 +42,72 @@ html {
         background-color: lightgray;
         border-radius: 25px;
         font-family: 'Times New Roman', Times, serif;
-        
+    }
+    .R1{
+        height: 100px;
+        width: 150px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R2{
+        height: 100px;
+        width: 120px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R3{
+        height: 100px;
+        width: 240px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R4{
+        height: 100px;
+        width: 200px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R5{
+        height: 100px;
+        width: 90px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .R6{
+        height: 100px;
+        width: 350px;
+        font-size: 69px;
+        content: "\00B0";
+        padding: 10px;
+        color: black;
+        background-color: lightgray;
+        border-radius: 25px;
+        font-family: 'Times New Roman', Times, serif;
     }
 .Raspuns{
     margin: 18vw 10px 0 14vw;
@@ -66,7 +140,7 @@ html {
 }
 .Back{
     color: black;
-    background-color: #ffc0cb;
+    background-color: #f9e9ec;
     font-size: 30px;
     border-radius: 10px;
     width:250px;
