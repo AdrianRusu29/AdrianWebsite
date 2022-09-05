@@ -11,11 +11,35 @@
 
   <body>
         <div class="title">
-            Puteți lăsa opinia personală despre site, despre mine și sfaturi pentru a îmbunătăți experiența de navigare a site-ului <br> Vă mulțumesc mult
+            <h3>Puteți lăsa opinia personală despre site, despre mine și sfaturi</h3>
         </div>
-        <input title="Feedback" name="Feedback" class="Feedback">
+        <div class="title2">
+          <h3>pentru a îmbunătăți experiența de navigare a site-ului</h3>
+      </div>
+        <form onsubmit="sendEmail(); reset();  return false;">
+          <input type="text" id="name" placeholder="Nume" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+          <textarea name="Feedback" id="message" placeholder="Feedback-ul Dvs." rows="4" required></textarea>
+          <button type="submit" class="submit">Trimite</button>
+        </form>
         <a href="../Principal/index.html">
             <button class="Back">Pagina Principală </button>
         </a> 
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+          function sendEmail(){
+                Email.send({
+                  secureToken: "2a5e9ad1-2b01-4fa9-807f-ee59862635dd",
+                  To : 'ady.rusu.adrian@gmail.com',
+                  From : document.getElementById("email").value,
+                  Subject : "Site Feedback",
+                  Body : "Name: " + document.getElementById("name").value
+                  + "<br> Email: " + document.getElementById("email").value
+                  + "<br> Feedback" + document.getElementById("message").value
+    }).then(
+      message => alert("Feedback expediat, vă mulțumesc pentru timpul și efortul acordat")
+    );
+          }
+        </script>
   </body>
 </html>

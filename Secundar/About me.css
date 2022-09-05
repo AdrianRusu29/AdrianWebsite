@@ -16,10 +16,21 @@ width: 100vw;
 .title {
 display: flex;
 place-content: center;
+justify-content: center;
 font-size: 30px;
-margin: 50px 0 0 15px;
+margin: 100px 0 0 15px;
+color: #034f84;
 font-family: 'Times New Roman', Times, serif;
 }
+.title2 {
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 3px 0 0 15px;
+    color: #034f84;
+    font-family: 'Times New Roman', Times, serif;
+    }
 .Introducere{
     font-family:'Times New Roman', Times, serif;
     margin: auto;
@@ -48,3 +59,57 @@ font-family: 'Times New Roman', Times, serif;
     place-content: center;
     margin: 5vw 0 0 10vw;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 500px 0 500px;
+    padding: 3vw 4vw;
+    gap: 25px;
+    border-color: #f7786b;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: #ffd6d2;
+}
+input{
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-color: #f7786b;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #ffe9e7;
+    color: #034f84;
+}
+textarea{
+    height: max-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #f7786b;
+    text-align: left;
+    resize: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #ffe9e7;
+    color: #034f84;
+}
+.submit{
+    height: max-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 69px;
+    outline-color: #92a8d1;
+    border-radius: 10px;
+    border-color: #f7786b;
+    background-color: #ffc9c4;
+    color: #034f84;
+}
+.submit:hover{
+    background-color: #ffa096;
+}
+::placeholder {
+    color:#034f84;
+    opacity: 0.4;
+  }
