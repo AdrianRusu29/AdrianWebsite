@@ -62,8 +62,11 @@ font-family: 'Times New Roman', Times, serif;
 form{
     display: flex;
     flex-direction: column;
-    margin: 100px 500px 0 500px;
-    padding: 3vw 4vw;
+    justify-content: flex-start;
+    width: 30%;
+    margin-top: 7vw;
+    margin-left: 30vw;
+    padding: 3vw;
     gap: 25px;
     border-color: #f7786b;
     border-style: groove;
@@ -93,18 +96,24 @@ textarea{
     background-color: #ffe9e7;
     color: #034f84;
 }
+.textFeedback{
+    text-align: start;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
 .submit{
-    height: max-content;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     height: 40px;
     width: 200px;
-    margin-left: 69px;
+    text-align: center;
     outline-color: #92a8d1;
     border-radius: 10px;
     border-color: #f7786b;
     background-color: #ffc9c4;
     color: #034f84;
+    justify-content: center;
 }
 .submit:hover{
     background-color: #ffa096;
@@ -112,4 +121,8 @@ textarea{
 ::placeholder {
     color:#034f84;
     opacity: 0.4;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
   }

@@ -16,30 +16,28 @@
         <div class="title2">
           <h3>pentru a îmbunătăți experiența de navigare a site-ului</h3>
       </div>
-        <form onsubmit="sendEmail(); reset();  return false;">
-          <input type="text" id="name" placeholder="Nume" required>
-          <input type="email" id="email" placeholder="E-mail" required>
-          <textarea name="Feedback" id="message" placeholder="Feedback-ul Dvs." rows="4" required></textarea>
-          <button type="submit" class="submit">Trimite</button>
+        <form action="" name="Form" method="post">
+          <input type="text" id="Name" name="Name" placeholder="Nume" required>
+          <input type="email" id="Email" name="Email" placeholder="E-mail" required>
+          <input class="textFeedback" type="text" name="Feedback" id="message" placeholder="Feedback-ul Dvs." rows="4" required></textarea>
+          <div class="button">
+            <button type="submit" class="submit">Trimite</button>
+          </div>
         </form>
         <a href="../Principal/index.html">
-            <button class="Back">Pagina Principală </button>
+            <button class="Back">⬅️ Pagina Principală </button>
         </a> 
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
-          function sendEmail(){
-                Email.send({
-                  secureToken: "2a5e9ad1-2b01-4fa9-807f-ee59862635dd",
-                  To : 'ady.rusu.adrian@gmail.com',
-                  From : document.getElementById("email").value,
-                  Subject : "Site Feedback",
-                  Body : "Name: " + document.getElementById("name").value
-                  + "<br> Email: " + document.getElementById("email").value
-                  + "<br> Feedback" + document.getElementById("message").value
-    }).then(
-      message => alert("Feedback expediat, vă mulțumesc pentru timpul și efortul acordat")
-    );
-          }
-        </script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbywJwVjQcOokd6TV_CoFTZ0Z7DzjjVUm35MBEWZFAm5vAK6ahfPrN-lAOr4p09rGAC6/exec'
+          const form = document.forms['Form']
+          
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Vă mulțumesc mult pentru timpul și efortul acordat ❤️" ))
+            .then(() => {  window.location.reload(); })
+            .catch(error => console.error('Ceva nu a mers conform planului, vă rugăm să reîncercați încă o dată', error.message))
+          })
+          </script>
   </body>
 </html>

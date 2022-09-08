@@ -93,6 +93,7 @@ html {
                 opacity: 120%;
                 border-radius: 10px;
                 border-bottom: 35px;
+                border-color: #fff;
                 font-family: 'Times New Roman', Times, serif;
             }
             .DesignBtn:hover {
