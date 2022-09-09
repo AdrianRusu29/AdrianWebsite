@@ -37,8 +37,9 @@ font-family: 'Times New Roman', Times, serif;
     place-content: center;
     display: grid;
     font-size: 19px;
-    text-align: center;
+    text-align: justify;
     line-height: 25px;
+    margin: 0 7vw 0 7vw;
 }
 .Back{
     margin: 100px 0 0 70px;
@@ -125,4 +126,15 @@ textarea{
   .button{
     display: flex;
     justify-content: center;
+  }
+  .FText{
+    place-content: center;
+  }
+  .BackButton{
+    margin: 60px 0 0 70px;
+    color: black;
+    background-color: #ffc0cb;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 125px;
   }
