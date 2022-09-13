@@ -13,21 +13,33 @@ html {
     font-size: 42px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 2vw;
 }
 .list{
     font-size: 33px;
     color: #034f84;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 .Orange{
     color:  #f7786b;
 }
-a{
-    text-decoration: none;
-    color:#034f84;
-}
 li{
     display: flex;
     justify-content: center;
+}
+.li{
+    color: #f7786b;
+}
+.image{
+    border-radius:  10px;
+    height: 29px;
+}
+.Back{
+    color: black;
+    background-color: #f9e9ec;
+    font-size: 30px;
+    border-radius: 10px;
+    width:250px;
+    padding: 2px;
+    margin: 17vw 0 0 7vw;
 }
