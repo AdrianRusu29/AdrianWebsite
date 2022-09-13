@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(255, 200, 200); 
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Header{
+    color: #034f84;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.list{
+    font-size: 33px;
+    color: #034f84;
+    margin-top: 15vw;
+}
+.Orange{
+    color:  #f7786b;
+}
+a{
+    text-decoration: none;
+    color:#034f84;
+}
+li{
+    display: flex;
+    justify-content: center;
+}
