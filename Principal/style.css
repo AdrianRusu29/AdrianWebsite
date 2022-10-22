@@ -1,0 +1,34 @@
+
+body{
+    margin: 0 0 0 0;
+    background-color: black;
+}
+.Main{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('/Background.jpg');
+    background-size:cover;
+    margin: 0 0 0 0;
+    height: 55vw;
+    width: 100vw;
+}
+.Image{
+    width: 14vw;
+    border-style: groove;
+    border-color:#1D3637;
+    margin: 4vw 0 0 8vw;
+}
+.Citat{
+    font-size: 3vw;
+    margin: -7vw 0 0 39vw;
+}
+.stanga{
+    font-style: italic;
+    color: red;
+    font-size: 3vw;
+    margin-left: 65vw;
+}
+.Footer{
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+}
